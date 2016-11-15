@@ -1,0 +1,21 @@
+{
+    "name": "nex-otaku/yii2-uuid-tools",
+    "description": "Basic tools for UUID projects.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," uuid"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nex Otaku",
+            "email": "nex@otaku.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "nexotaku\\uuid\\": ""
+        }
+    }
+}
