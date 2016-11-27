@@ -28,3 +28,5 @@ php composer.phar require --prefer-dist nex-otaku/yii2-uuid-tools "*"
 -----
 
 **UuidBehavior** - генерирует UUID для поля "id" при сохранении модели ActiveRecord.
+
+**uuid** - генерация UUID, перевод бинарного UUID в текстовый вид и обратно.
