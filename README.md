@@ -1,28 +1,30 @@
-UUID tools
-==========
-Basic tools for UUID projects.
 
-Installation
+Утилиты UUID
+==========
+Базовые утилиты для проектов UUID.
+
+
+Установка
 ------------
 
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+Лучше всего устанавливать через [Composer](http://getcomposer.org/download/).
 
-Either run
+Выполните
 
 ```
 php composer.phar require --prefer-dist nex-otaku/yii2-uuid-tools "*"
 ```
 
-or add
+или же добавьте
 
 ```
 "nex-otaku/yii2-uuid-tools": "*"
 ```
 
-to the require section of your `composer.json` file.
+в список "require" вашего файла `composer.json`.
 
 
-Usage
+Использование
 -----
 
-TBD
+**UuidBehavior** - генерирует UUID для поля "id" при сохранении модели ActiveRecord.
