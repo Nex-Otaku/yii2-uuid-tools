@@ -4,7 +4,7 @@
  * Используется расширение "p2made/yii2-p2y2-things".
  */
 
-namespace nexotaku\uuid\helpers;
+namespace nex_otaku\uuid\helpers;
 
 class uuid extends \p2made\helpers\Uuid
 {

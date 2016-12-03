@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "nexotaku\\uuid\\": "",
+            "nex_otaku\\uuid\\": "",
             "p2made\\": "external\\p2made"
         }
     }

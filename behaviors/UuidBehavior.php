@@ -1,9 +1,9 @@
 <?php
 
-namespace nexotaku\uuid\behaviors;
+namespace nex_otaku\uuid\behaviors;
 
 use yii\behaviors\AttributeBehavior;
-use nexotaku\uuid\helpers\uuid;
+use nex_otaku\uuid\helpers\uuid;
 use yii\db\BaseActiveRecord;
 
 /**
