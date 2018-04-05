@@ -30,6 +30,13 @@ class UuidBehavior extends AttributeBehavior
      * will be used as value.
      */
     public $value;
+    /**
+     * Ставим по умолчанию "true",
+     * чтобы иметь возможность задать ID вручную при создании записи.
+     * @var bool whether to preserve non-empty attribute values.
+     * @since 2.0.13
+     */
+    public $preserveNonEmptyValues = true;
 
     /**
      * @inheritdoc
